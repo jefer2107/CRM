@@ -31,6 +31,11 @@ export default function Header(){
                             <li>Campanhas</li>
                         </a>
                     </Link>
+                    <Link href="register/projects">
+                        <a>
+                            <li>Cadastrar Projeto</li>
+                        </a>
+                    </Link>
                 </ol>
             </header>
         </div>

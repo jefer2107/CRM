@@ -1,9 +1,9 @@
 import "../styles/projects.module.css"
 
-export default function ProjectComponent({changeModel, project}){
+export default function ProjectComponent({changeModel, register}){
     return(
         <div className="register-projects d-flex">
-            <form className="mx-auto">
+            <form onSubmit={register} className="mx-auto">
             <h3 className="text-center">Cadastrar Projeto</h3>
                 <div className="form-group">
                     <label>Data:</label>
@@ -21,8 +21,9 @@ export default function ProjectComponent({changeModel, project}){
                     <label>Valor:</label>
                     <input onChange={changeModel} className="form-control" type="text" name="valor" />
                 </div>
-                <button className="btn btn-success btn-block my-2">Cadastrar</button>
+                <button type="submit" className="btn btn-success btn-block my-2">Cadastrar</button>
             </form>
+            
         </div>
     )
 }
