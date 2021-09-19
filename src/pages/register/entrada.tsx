@@ -12,6 +12,6 @@ export default function Entrada(){
     }
 
     return(
-        <EntradaComponent changeModel={changeModel} model={model} />
+        <EntradaComponent changeModel={changeModel} />
     )
 }

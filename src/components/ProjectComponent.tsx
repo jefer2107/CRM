@@ -7,7 +7,7 @@ export default function ProjectComponent({changeModel, register}){
             <h3 className="text-center">Cadastrar Projeto</h3>
                 <div className="form-group">
                     <label>Data:</label>
-                    <input onChange={changeModel} className="form-control" type="date" name="projeto" />
+                    <input onChange={changeModel} className="form-control" type="date" name="data" />
                 </div>
                 <div className="form-group">
                     <label>Projeto:</label>

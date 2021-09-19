@@ -36,6 +36,11 @@ export default function Header(){
                             <li>Cadastrar Projeto</li>
                         </a>
                     </Link>
+                    <Link href="list/listProjects">
+                        <a>
+                            <li>Listas de Projetos</li>
+                        </a>
+                    </Link>
                 </ol>
             </header>
         </div>

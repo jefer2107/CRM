@@ -3,10 +3,10 @@ import ProjectComponent from "../../components/ProjectComponent"
 import axios from "axios"
 
 interface ProjectProps{
+    data: Date
     projeto: string
     cliente: string
-    valor: string
-    data: Date
+    valor: string 
 }
 
 export default function Projects(){
